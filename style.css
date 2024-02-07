@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Honk&display=swap');
+
+body{
+    background-color: rgb(238, 245, 243);
+    font-family: 'Bebas Neue', sans-serif;
+}
+h1{
+    
+    font-family: 'Honk', system-ui;
+    font-size: 40px;
+    
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+    border: 2px solid black;
+    padding: 25px;
+    margin-bottom: 10px;
+
+}
+
+main{
+    border: 2px solid black;
+    height: 57vh;
+    padding: 25px;
+    margin-bottom: 10px;
+    
+}
+
+footer{
+    border: 2px solid black;
+    text-align: center;
+    font-weight: 700px;
+}
+a{
+    padding-right: 15px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+img{
+    width: 200px;
+}
